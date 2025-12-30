@@ -1,5 +1,5 @@
 # 💫 About Me:
-I’m currently working on hands-on data analytics projects using Excel, SQL, Python, and Power BI to gain real-world experience.<br>I’m looking to collaborate on beginner-to-intermediate data analytics projects, dashboards, and case studies to learn and grow together.<br>I’m looking for guidance on real-world analytics problems, project feedback, and industry best practices.<br>I’m currently learning data analytics with a strong focus on Excel, SQL, Python, and Power BI through practical projects.<br>Ask me about beginner-level data analysis, Excel functions, SQL basics, Python for data analysis, and Power BI dashboards also am Frontentd Developer.<br>I’m a student who learns data analytics by building projects first, then understanding the theory behind them 📊😄<br><br><br><br><br><br>
+🔭 I’m currently working on hands-on data analytics projects using Excel, SQL, Python, and Power BI to gain real-world experience.<br>👯I’m looking to collaborate on beginner-to-intermediate data analytics projects, dashboards, and case studies to learn and grow together.<br>🤝I’m looking for guidance on real-world analytics problems, project feedback, and industry best practices.<br>🌱I’m currently learning data analytics with a strong focus on Excel, SQL, Python, and Power BI through practical projects.<br>💬Ask me about beginner-level data analysis, Excel functions, SQL basics, Python for data analysis, and Power BI dashboards also am Frontentd Developer.<br>⚡I’m a student who learns data analytics by building projects first, then understanding the theory behind them 📊😄<br><br>
 
 
 ## 🌐 Socials:
@@ -22,3 +22,10 @@ I’m currently working on hands-on data analytics projects using Excel, SQL, Py
 [![](https://visitcount.itsvg.in/api?id=Patilavinash4433&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+
+
+
+
+
+
