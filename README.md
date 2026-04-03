@@ -1,8 +1,3 @@
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
-<br>
-
 ### 💫 About Me: 
 🔭 I’m currently working on hands-on data analytics projects using Excel, SQL, Python, and Power BI to gain real-world experience.
 <br>👯I’m looking to collaborate on beginner-to-intermediate data analytics projects, dashboards, and case studies to learn and grow together.
