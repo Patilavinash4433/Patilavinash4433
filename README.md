@@ -51,7 +51,13 @@
   <img src="https://streak-stats.demolab.com?user=Patilavinash4433&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
 </div>
 
-###
+### 
+### Achievements
+
+<img width="148" height="148" alt="pair-extraordinaire-default-579438a20e01" src="https://github.com/user-attachments/assets/2f5cffa8-0d4f-4331-8304-4e9118b1745b" />
+<img width="148" height="148" alt="pull-shark-default-498c279a747d" src="https://github.com/user-attachments/assets/04d6d14e-7daf-4404-bd23-88ad65b332de" />
+<img width="148" height="148" alt="quickdraw-default-39c6aec8ff89" src="https://github.com/user-attachments/assets/245a1f4b-277a-4aa3-bb5c-1d231417de06" />
+<img width="148" height="148" alt="yolo-default-be0bbff04951" src="https://github.com/user-attachments/assets/a50f1ded-5924-46d7-bedd-b346387b8fcf" />
 
 ### 🤖 Enjoy :
 
