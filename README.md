@@ -1,11 +1,24 @@
 <div align="center">
 
-<!-- ✨ Master Prompt Hologram Animated Banner (Dark / Light Auto-Switch) ✨ -->
+<!-- ✨ Full Size Ghibli Banner with Face-Matched Character Art ✨ -->
+<table border="0" width="100%">
+<tr>
+<td width="58%" valign="middle" align="left">
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./avinash-banner.svg?v=15">
-  <source media="(prefers-color-scheme: light)" srcset="./avinash-banner-light.svg?v=15">
-  <img src="./avinash-banner.svg?v=15" alt="Patil Avinash Chandrabhan — AI/ML Engineer & Data Analyst" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-left-dark.svg?v=25">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-left-light.svg?v=25">
+  <img src="./assets/banner-left-dark.svg?v=25" alt="Patil Avinash Chandrabhan" width="100%"/>
 </picture>
+
+</td>
+<td width="42%" valign="middle" align="center">
+
+<img src="./assets/dev-character.jpg?v=25" alt="Patil Avinash AI/ML Character" width="100%" style="border-radius: 16px; border: 2px solid #00f2fe;"/>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -17,7 +30,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card (React Bits style, face-matched avatar, pure SVG) -->
-<img src="./avinash-lanyard.svg?v=15" alt="Patil Avinash ID Badge" width="330"/>
+<img src="./avinash-lanyard.svg?v=25" alt="Patil Avinash ID Badge" width="330"/>
 
 </td>
 <td width="62%" valign="top">
@@ -117,8 +130,8 @@ With a strong engineering mindset, I am continuously advancing my capabilities i
 
 ### 📊 GitHub Stats & Overview Cards
 
-<img src="./avinash-stats.svg?v=15" alt="Patil Avinash Stats" height="185"/>
-<img src="./avinash-langs.svg?v=15" alt="Most Used Technologies" height="185"/>
+<img src="./avinash-stats.svg?v=25" alt="Patil Avinash Stats" height="185"/>
+<img src="./avinash-langs.svg?v=25" alt="Most Used Technologies" height="185"/>
 
 <br/><br/>
 
@@ -126,26 +139,29 @@ With a strong engineering mindset, I am continuously advancing my capabilities i
 
 <br/><br/>
 
-<!-- 📈 Contribution Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Patilavinash4433&bg_color=0f172a&color=00f2fe&line=3b82f6&point=9333ea&area=true&area_color=3b82f6&hide_border=true&custom_title=Contribution%20Graph%20📊" alt="Contribution Graph" width="95%"/>
+### 🏆 GitHub Achievements & Trophies
+
+<p align="center">
+  <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="120" alt="Pair Extraordinaire" />
+  &nbsp;&nbsp;
+  <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="120" alt="Pull Shark" />
+  &nbsp;&nbsp;
+  <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="120" alt="Quickdraw" />
+  &nbsp;&nbsp;
+  <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="120" alt="YOLO" />
+</p>
+
+<br/>
+
+<!-- 🏆 Local Trophies Card -->
+<img src="./avinash-trophies.svg?v=25" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
-<!-- 🏆 Trophies (local animated SVG — always loads) -->
-<img src="./avinash-trophies.svg?v=15" alt="Trophies" width="95%"/>
+### 👾 Pacman Contribution Graph
 
-<br/><br/>
-
-### 👾 Contribution Animations
-
-<p align="center"><b>🎮 Pacman Contribution Graph</b></p>
+<p align="center"><b>🎮 Pacman Contribution Animation</b></p>
 <img src="./assets/pacman.svg" width="95%" alt="Pacman Contribution Animation" />
-
-<br/><br/>
-
-### 🐍 Watch the snake eat my contributions
-
-<img src="https://raw.githubusercontent.com/Patilavinash4433/Patilavinash4433/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="95%"/>
 
 <br/><br/>
 
