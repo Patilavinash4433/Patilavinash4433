@@ -1,23 +1,23 @@
 <div align="center">
 
-<!-- ✨ HUGE Ghibli AI/ML Developer Banner ✨ -->
+<!-- ✨ Master Prompt Hologram Animated Banner (Dark / Light Auto-Switch) ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./avinash-banner.svg?v=10">
-  <source media="(prefers-color-scheme: light)" srcset="./avinash-banner-light.svg?v=10">
-  <img src="./avinash-banner.svg?v=10" alt="Patil Avinash Chandrabhan — AI/ML Engineer & Data Analyst" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./avinash-banner.svg?v=15">
+  <source media="(prefers-color-scheme: light)" srcset="./avinash-banner-light.svg?v=15">
+  <img src="./avinash-banner.svg?v=15" alt="Patil Avinash Chandrabhan — AI/ML Engineer & Data Analyst" width="100%"/>
 </picture>
 
 </div>
 
 <br/>
 
-<!-- Table Layout: Left = Swinging Ghibli Lanyard ID Badge; Right = Featured Projects -->
+<!-- Table Layout: Left = Swinging Pendulum Lanyard Badge; Right = Featured Projects -->
 <table align="center" border="0">
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<!-- 🪪 Swinging Lanyard ID Card (Ghibli Avatar, pure SVG) -->
-<img src="./avinash-lanyard.svg?v=10" alt="Patil Avinash ID Badge" width="330"/>
+<!-- 🪪 Swinging Lanyard ID Card (React Bits style, face-matched avatar, pure SVG) -->
+<img src="./avinash-lanyard.svg?v=15" alt="Patil Avinash ID Badge" width="330"/>
 
 </td>
 <td width="62%" valign="top">
@@ -34,7 +34,7 @@
 
 <br/>
 
-> 💙 *"Data is my art, AI is my superpower."*
+> ⚡ *"Turning Enterprise Data into Business Intelligence & AI Automation."*
 
 </td>
 </tr>
@@ -117,8 +117,8 @@ With a strong engineering mindset, I am continuously advancing my capabilities i
 
 ### 📊 GitHub Stats & Overview Cards
 
-<img src="./avinash-stats.svg?v=10" alt="Patil Avinash Stats" height="185"/>
-<img src="./avinash-langs.svg?v=10" alt="Most Used Technologies" height="185"/>
+<img src="./avinash-stats.svg?v=15" alt="Patil Avinash Stats" height="185"/>
+<img src="./avinash-langs.svg?v=15" alt="Most Used Technologies" height="185"/>
 
 <br/><br/>
 
@@ -132,7 +132,7 @@ With a strong engineering mindset, I am continuously advancing my capabilities i
 <br/><br/>
 
 <!-- 🏆 Trophies (local animated SVG — always loads) -->
-<img src="./avinash-trophies.svg?v=10" alt="Trophies" width="95%"/>
+<img src="./avinash-trophies.svg?v=15" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
