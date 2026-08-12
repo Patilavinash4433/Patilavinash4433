@@ -122,9 +122,6 @@ With a strong engineering mindset, I am continuously advancing my capabilities i
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Patilavinash4433&theme=dark&hide_border=true&background=0f172a&ring=00f2fe&fire=3b82f6&currStreakLabel=38bdf8" alt="GitHub Streak"/>
-
-<br/><br/>
 
 ### 🏆 GitHub Achievements & Trophies
 
