@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 140" width="100%" height="auto">
+  <defs>
+    <linearGradient id="trophy-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="trophy-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes shine { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+    .t-title { font-family: 'Segoe UI', sans-serif; font-weight: bold; font-size: 11px; fill: #ffffff; }
+    .t-sub { font-family: 'Consolas', monospace; font-size: 9.5px; fill: #38bdf8; }
+    .trophy-card { animation: shine 3s infinite ease-in-out; }
+  </style>
+
+  <rect width="950" height="140" rx="12" fill="url(#trophy-bg)"/>
+  <rect width="948" height="138" x="1" y="1" rx="11" fill="none" stroke="url(#trophy-border)" stroke-width="1.5"/>
+
+  <!-- 4 Trophies -->
+  <!-- Trophy 1: Pair Extraordinaire -->
+  <g transform="translate(45, 20)">
+    <rect width="180" height="100" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+    <circle cx="90" cy="40" r="22" fill="#0369a1"/>
+    <text x="90" y="46" font-size="22" text-anchor="middle">👯</text>
+    <text x="90" y="75" text-anchor="middle" class="t-title">Pair Extraordinaire</text>
+    <text x="90" y="90" text-anchor="middle" class="t-sub">Collaborative Dev</text>
+  </g>
+
+  <!-- Trophy 2: Pull Shark -->
+  <g transform="translate(265, 20)">
+    <rect width="180" height="100" rx="8" fill="#1e293b" stroke="#00f2fe" stroke-width="1"/>
+    <circle cx="90" cy="40" r="22" fill="#0284c7"/>
+    <text x="90" y="46" font-size="22" text-anchor="middle">🦈</text>
+    <text x="90" y="75" text-anchor="middle" class="t-title">Pull Shark</text>
+    <text x="90" y="90" text-anchor="middle" class="t-sub">Pull Request Master</text>
+  </g>
+
+  <!-- Trophy 3: Quickdraw -->
+  <g transform="translate(485, 20)">
+    <rect width="180" height="100" rx="8" fill="#1e293b" stroke="#a855f7" stroke-width="1"/>
+    <circle cx="90" cy="40" r="22" fill="#7e22ce"/>
+    <text x="90" y="46" font-size="22" text-anchor="middle">⚡</text>
+    <text x="90" y="75" text-anchor="middle" class="t-title">Quickdraw</text>
+
+    <text x="90" y="90" text-anchor="middle" class="t-sub">Rapid Issue Resolver</text>
+  </g>
+
+  <!-- Trophy 4: YOLO -->
+  <g transform="translate(705, 20)">
+    <rect width="180" height="100" rx="8" fill="#1e293b" stroke="#ec4899" stroke-width="1"/>
+    <circle cx="90" cy="40" r="22" fill="#be185d"/>
+    <text x="90" y="46" font-size="22" text-anchor="middle">🎲</text>
+    <text x="90" y="75" text-anchor="middle" class="t-title">YOLO</text>
+    <text x="90" y="90" text-anchor="middle" class="t-sub">Direct Merge Champion</text>
+  </g>
+</svg>

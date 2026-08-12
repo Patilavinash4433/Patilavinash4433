@@ -1,129 +1,81 @@
 <div align="center">
-  <!-- Animated Hero Banner -->
-  <img src="assets/banner.svg" width="100%" alt="Patil Avinash Chandrabhan - Hero Banner" />
+
+<!-- ✨ Animated Dark/Light Banner ✨ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./avinash-banner.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./avinash-banner-light.svg?v=2">
+  <img src="./avinash-banner.svg?v=2" alt="Patil Avinash Chandrabhan — AI/ML Engineer & Data Analyst" width="100%"/>
+</picture>
+
 </div>
 
 <br/>
 
-<div align="center">
-  <!-- HUD Status Card -->
-  <img src="assets/profile-card.svg" width="100%" alt="System Status Card" />
-</div>
+<!-- Table Layout with Swinging Lanyard Badge on Left & Projects Table on Right -->
+<table align="center" border="0">
+<tr>
+<td width="38%" align="center" valign="middle">
+
+<!-- 🪪 Swinging Lanyard ID Card (React Bits / Megha style, pure SVG) -->
+<img src="./avinash-lanyard.svg?v=2" alt="Patil Avinash ID Badge" width="330"/>
+
+</td>
+<td width="62%" valign="top">
+
+### 💼 Featured Engineering & Analytics Projects
+
+| 🚀 Project | 💻 Tech Stack | 🔗 Link |
+|:---|:---:|:---:|
+| **🍕 Zomato Analytics Dashboard** | `Power BI` `DAX` `Excel` | [View Project](https://github.com/Patilavinash4433/Zomato_Performance_Analytics_Dashboard) |
+| **📈 TechNova Revenue Dashboard** | `JavaScript` `Chart.js` | [View Project](https://github.com/Patilavinash4433/TechNova_Revenue_Dashboard) |
+| **⚙️ Student Data Manager** | `Python` `FastAPI` `MySQL` | [View Project](https://github.com/Patilavinash4433/Student_Data_Manager) |
+| **📊 Sales Analytics (Excel BI)** | `Excel` `Power Query` | [View Project](https://github.com/Patilavinash4433/Sales_Analytics_Dashboard_Excel) |
+| **🌐 Web Portfolio** | `TypeScript` `React` | [View Portfolio](https://github.com/Patilavinash4433/Avinash_Patil_Portfolio) |
 
 <br/>
 
-<!-- Visual Section Separator -->
-<p align="center">
-  <img src="assets/ai-data-header.svg" width="100%" alt="Section Separator" />
-</p>
+> ⚡ *"Turning Complex Enterprise Data into Business Intelligence & AI Automation."*
 
-## 👨‍💻 Professional Introduction
+</td>
+</tr>
+</table>
 
-I am **Patil Avinash Chandrabhan**, currently working professionally as a **Data Analyst & AI/ML Engineer at Indo Era**. My day-to-day work centers around transforming raw complex datasets into actionable business intelligence, developing automated data pipelines, and creating analytical solutions using **Python, SQL, Power BI, and Excel**.
+<br/>
 
-With a strong engineering mindset, I am continuously advancing my capabilities in **Machine Learning, Data Science, and Artificial Intelligence**—focusing on predictive modeling, exploratory data analysis, and building intelligent automation systems for real-world enterprise workflows.
+## 👨‍💻 Professional Background
 
----
+I am **Patil Avinash Chandrabhan**, currently working professionally as a **Data Analyst & AI/ML Engineer at Indo Era**. My core responsibility involves extracting business value from raw enterprise datasets, constructing automated ETL data pipelines, and building business intelligence dashboards using **Python, SQL, Power BI, and Excel**.
 
-## 🔭 Currently Working On
-
-- ⚡ **Enterprise Data Automation**: Developing automated Python & SQL data validation, extraction, and transformation workflows.
-- 📊 **E-Commerce & Business Intelligence**: Designing interactive Power BI & Excel dashboards for sales, revenue, and KPI monitoring at Indo Era.
-- 🤖 **Machine Learning Pipelines**: Experimenting with scikit-learn models for data classification, regression, and customer trend prediction.
-- ⚙️ **Data Processing Systems**: Building full-stack web interfaces (FastAPI + MySQL + Pandas) for rapid data ingestion and reporting.
+I am continuously developing my technical capabilities toward **Machine Learning, Data Science, and Artificial Intelligence**—focusing on predictive modeling, exploratory data analysis, and building intelligent automation systems for real-world enterprise workflows.
 
 ---
 
-<!-- Visual Section Separator -->
-<p align="center">
-  <img src="assets/ai-data-header.svg" width="100%" alt="Section Separator" />
-</p>
-
-## 🤖 AI & Machine Learning
-
-I view Machine Learning and Artificial Intelligence as natural evolutions of advanced data analytics. I am actively expanding my practical expertise across the end-to-end ML lifecycle:
-
-- 🔍 **Exploratory Data Analysis (EDA)**: Statistical summaries, feature distribution analysis, outlier detection, and data cleaning with `Pandas` and `NumPy`.
-- ⚙️ **Feature Engineering**: Normalization, categorical encoding, feature selection, and data transformation for model readiness.
-- 🎯 **Model Training & Experimentation**: Implementation of supervised learning algorithms using `Scikit-learn` (Regression, Decision Trees, Classification, Clustering).
-- 📈 **Model Evaluation & Tuning**: Assessing accuracy, precision, recall, RMSE, and cross-validation performance.
-- 🤖 **AI Automation**: Automating data analytical workflows using Python scripts and intelligent data pipelines.
-
----
-
-## 📊 Data Analytics & Business Intelligence
-
-- 📑 **Advanced Excel**: Complex formulas (`XLOOKUP`, `INDEX/MATCH`), Power Query ETL, dynamic Pivot Tables, and VBA macro automation.
-- 🛢️ **SQL & Database Management**: Complex queries, subqueries, `JOIN` operations, window functions, aggregations, and performance tuning in MySQL & PostgreSQL.
-- 📈 **Power BI & Visual Analytics**: DAX measure engineering, interactive dashboard architecture, data modeling (Star Schema), and executive KPI reporting.
-- 🐍 **Python Analytics**: Data manipulation, aggregation, time-series analysis, and data cleaning using `Pandas`, `NumPy`, and visualization libraries.
-
----
-
-<!-- Visual Section Separator -->
-<p align="center">
-  <img src="assets/ai-data-header.svg" width="100%" alt="Section Separator" />
-</p>
-
-## 💻 Tech Stack & Tools
+## 🤖 AI / ML & 📊 Data Analytics Stack
 
 <table align="center" width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">📊 Data Analytics & BI</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-        <br/><br/>
-        <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel" />
-        <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-        <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
       <h3 align="center">🤖 AI & Machine Learning</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-        <img src="https://img.shields.io/badge/Machine_Learning-3b82f6?style=for-the-badge&logo=openai&logoColor=white" alt="Machine Learning" />
-        <br/><br/>
-        <img src="https://img.shields.io/badge/Data_Preprocessing-00f2fe?style=for-the-badge&logo=google-cloud&logoColor=black" alt="Data Preprocessing" />
-        <img src="https://img.shields.io/badge/Feature_Engineering-8b5cf6?style=for-the-badge&logo=spark&logoColor=white" alt="Feature Engineering" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">⚙️ Backend & Data Engineering</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        <br/><br/>
-        <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB" />
-        <img src="https://img.shields.io/badge/Polars-CD7F32?style=for-the-badge&logo=python&logoColor=white" alt="Polars" />
-      </p>
+      <ul>
+        <li><b>Exploratory Data Analysis (EDA)</b>: Statistical summaries, feature distributions, outlier handling using <code>Pandas</code> & <code>NumPy</code>.</li>
+        <li><b>Feature Engineering</b>: Normalization, encoding, feature selection, and dataset scaling.</li>
+        <li><b>Model Training</b>: Implementation of supervised learning algorithms using <code>Scikit-learn</code> (Regression, Classification, Decision Trees, Clustering).</li>
+        <li><b>Model Evaluation</b>: Precision, Recall, RMSE, cross-validation tuning.</li>
+      </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🛠️ Development & Tools</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-        <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-        <br/><br/>
-        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-        <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm" />
-      </p>
+      <h3 align="center">📊 Data Analytics & BI</h3>
+      <ul>
+        <li><b>Advanced Excel</b>: Dynamic Pivot Tables, Power Query ETL, complex formulas (<code>XLOOKUP</code>, <code>INDEX/MATCH</code>), and VBA macros.</li>
+        <li><b>SQL & Databases</b>: Complex queries, subqueries, <code>JOIN</code> operations, window functions, and indexing in MySQL & PostgreSQL.</li>
+        <li><b>Power BI</b>: DAX measure engineering, interactive dashboard building, Star Schema data modeling.</li>
+        <li><b>Python Automation</b>: Data pipelines, data cleaning, automated validation.</li>
+      </ul>
     </td>
   </tr>
 </table>
 
 ---
-
-<!-- Visual Section Separator -->
-<p align="center">
-  <img src="assets/ai-data-header.svg" width="100%" alt="Section Separator" />
-</p>
 
 ## 🚀 Professional Journey
 
@@ -159,150 +111,58 @@ I view Machine Learning and Artificial Intelligence as natural evolutions of adv
   </tbody>
 </table>
 
----
-
-## ⭐ Featured Projects
-
-<table align="center" width="100%">
-  <thead>
-    <tr>
-      <th align="left" width="28%">Project Name</th>
-      <th align="left" width="45%">Description</th>
-      <th align="center" width="27%">Tech Stack</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b><a href="https://github.com/Patilavinash4433/Zomato_Performance_Analytics_Dashboard">🍕 Zomato Analytics Dashboard</a></b></td>
-      <td>Interactive Power BI dashboard analyzing food delivery sales, customer behavior, restaurant metrics, and city-wise performance insights.</td>
-      <td align="center">
-        <code>Power BI</code> <code>DAX</code> <code>Excel</code>
-      </td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/Patilavinash4433/TechNova_Revenue_Dashboard">📈 TechNova Revenue Dashboard</a></b></td>
-      <td>Financial analytics web dashboard built for interactive revenue tracking, real-time KPI monitoring, and business visual trends.</td>
-      <td align="center">
-        <code>JavaScript</code> <code>Chart.js</code> <code>HTML/CSS</code>
-      </td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/Patilavinash4433/Student_Data_Manager">⚙️ Student Data Manager</a></b></td>
-      <td>Full-stack data processing application for uploading Excel files, processing data via FastAPI & Pandas, and persisting in MySQL.</td>
-      <td align="center">
-        <code>Python</code> <code>FastAPI</code> <code>MySQL</code> <code>Pandas</code>
-      </td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/Patilavinash4433/Sales_Analytics_Dashboard_Excel">📊 Sales Analytics (Excel BI)</a></b></td>
-      <td>Dynamic Excel business intelligence dashboard tracking key sales metrics, revenue growth, customer retention, and executive KPIs.</td>
-      <td align="center">
-        <code>Advanced Excel</code> <code>Power Query</code> <code>Pivot Tables</code>
-      </td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/Patilavinash4433/Avinash_Patil_Portfolio">🌐 Personal Web Portfolio</a></b></td>
-      <td>Cinematic web portfolio showcasing data analytics dashboards, BI projects, data engineering applications, and professional background.</td>
-      <td align="center">
-        <code>TypeScript</code> <code>React</code> <code>Web Analytics</code>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-<!-- Visual Section Separator -->
-<p align="center">
-  <img src="assets/ai-data-header.svg" width="100%" alt="Section Separator" />
-</p>
-
-## 📈 GitHub Statistics
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=Patilavinash4433&show_icons=true&theme=tokyonight&bg_color=090d16&title_color=00f2fe&text_color=94a3b8&icon_color=3b82f6&border_color=1e293b&hide_border=false" alt="Patil Avinash GitHub Stats" height="175" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Patilavinash4433&layout=compact&theme=tokyonight&bg_color=090d16&title_color=00f2fe&text_color=94a3b8&border_color=1e293b&hide_border=false" alt="Top Languages" height="175" />
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <img src="https://streak-stats.demolab.com?user=Patilavinash4433&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" alt="GitHub Contribution Streak" width="95%" />
-</div>
-
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Patilavinash4433&theme=darkhub&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" width="95%" />
-</div>
 
----
+### 📊 GitHub Stats & Overview Cards
 
-<!-- Visual Section Separator -->
-<p align="center">
-  <img src="assets/ai-data-header.svg" width="100%" alt="Section Separator" />
-</p>
+<img src="./avinash-stats.svg?v=2" alt="Patil Avinash Stats" height="185"/>
+<img src="./avinash-langs.svg?v=2" alt="Most Used Technologies" height="185"/>
 
-## 👾 Contribution Animations
+<br/><br/>
 
-<div align="center">
-  <br/>
-  <p align="center"><b>🎮 Pacman Contribution Graph</b></p>
-  <img src="assets/pacman.svg" width="100%" alt="Pacman Contribution Animation" />
-</div>
+<img src="https://streak-stats.demolab.com?user=Patilavinash4433&theme=dark&hide_border=true&background=0f172a&ring=00f2fe&fire=3b82f6&currStreakLabel=38bdf8" alt="GitHub Streak"/>
 
-<br/>
+<br/><br/>
 
-<div align="center">
-  <p align="center"><b>🐍 Contribution Snake</b></p>
-  <img src="https://raw.githubusercontent.com/Patilavinash4433/Patilavinash4433/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake Animation" />
-</div>
+<!-- 📈 Contribution Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Patilavinash4433&bg_color=0f172a&color=00f2fe&line=3b82f6&point=9333ea&area=true&area_color=3b82f6&hide_border=true&custom_title=Contribution%20Graph%20📊" alt="Contribution Graph" width="95%"/>
 
----
+<br/><br/>
 
-<!-- Visual Section Separator -->
-<p align="center">
-  <img src="assets/ai-data-header.svg" width="100%" alt="Section Separator" />
-</p>
+<!-- 🏆 Trophies (local animated SVG — always loads) -->
+<img src="./avinash-trophies.svg?v=2" alt="Trophies" width="95%"/>
 
-## 📫 Connect With Me
+<br/><br/>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/patilavinash4046/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://avinashpatilprotfolio.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Patilavinash4433" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="mailto:patiluday8035@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://www.instagram.com/avinashhpatill?igsh=dzA2dmJtYWVpZ3hy" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-</div>
+### 👾 Contribution Animations
 
-<br/>
+<p align="center"><b>🎮 Pacman Contribution Graph</b></p>
+<img src="./assets/pacman.svg" width="95%" alt="Pacman Contribution Animation" />
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Patilavinash4433&style=flat-square&color=00f2fe" alt="Profile Views" />
-</div>
+<br/><br/>
 
-<br/>
+### 🐍 Watch the snake eat my contributions
 
-<div align="center">
-  <sub>Designed with 💙 for <b>Patil Avinash Chandrabhan</b> | AI/ML Engineer &amp; Data Analyst</sub>
+<img src="https://raw.githubusercontent.com/Patilavinash4433/Patilavinash4433/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="95%"/>
+
+<br/><br/>
+
+### 📫 Let's Connect
+
+<a href="https://www.linkedin.com/in/patilavinash4046/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://avinashpatilprotfolio.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://github.com/Patilavinash4433" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="mailto:patiluday8035@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://www.instagram.com/avinashhpatill?igsh=dzA2dmJtYWVpZ3hy" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Patilavinash4433&color=00f2fe&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+
+<br/><br/>
+
+*⭐️ Designed with 💙 for **Patil Avinash Chandrabhan** \| AI/ML Engineer & Data Analyst*
+
 </div>

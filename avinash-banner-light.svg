@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="light-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="50%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+
+    <linearGradient id="text-glow-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+
+    <linearGradient id="card-stroke-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <pattern id="cyber-grid-light" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#cbd5e1" stroke-width="0.6" stroke-opacity="0.6"/>
+      <circle cx="25" cy="25" r="1" fill="#0284c7" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .title-text-light {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-weight: 800;
+      font-size: 28px;
+      letter-spacing: 1.8px;
+    }
+    .sub-text-light {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      fill: #475569;
+    }
+    .tagline-text-light {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 13.5px;
+      fill: #0284c7;
+    }
+    .badge-txt-light {
+      font-family: 'Consolas', 'Fira Code', monospace;
+      font-weight: 600;
+      font-size: 11px;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="950" height="240" rx="14" fill="url(#light-bg)"/>
+  <rect width="950" height="240" rx="14" fill="url(#cyber-grid-light)"/>
+  <rect width="948" height="238" x="1" y="1" rx="13" fill="none" stroke="url(#card-stroke-light)" stroke-width="1.5"/>
+
+  <!-- Right Visual Graphics: AI Data Telemetry Screen (Light) -->
+  <g transform="translate(710, 35)" opacity="0.95">
+    <rect width="195" height="170" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect width="195" height="24" rx="10" fill="#f1f5f9"/>
+    <circle cx="15" cy="12" r="3.5" fill="#ef4444"/>
+    <circle cx="27" cy="12" r="3.5" fill="#f59e0b"/>
+    <circle cx="39" cy="12" r="3.5" fill="#10b981"/>
+    <text x="55" y="16" font-family="monospace" font-size="9.5" fill="#64748b">INDO_ERA_AI.LOG</text>
+
+    <!-- Data Bars -->
+    <rect x="20" y="155" width="12" height="35" rx="2" fill="#0284c7"/>
+    <rect x="38" y="140" width="12" height="50" rx="2" fill="#2563eb"/>
+    <rect x="56" y="160" width="12" height="30" rx="2" fill="#7e22ce"/>
+    <rect x="74" y="130" width="12" height="60" rx="2" fill="#a855f7"/>
+    <rect x="92" y="148" width="12" height="42" rx="2" fill="#0284c7"/>
+    <rect x="110" y="135" width="12" height="55" rx="2" fill="#0369a1"/>
+    <rect x="128" y="158" width="12" height="32" rx="2" fill="#7e22ce"/>
+    <rect x="146" y="142" width="12" height="48" rx="2" fill="#0284c7"/>
+    <rect x="164" y="150" width="12" height="40" rx="2" fill="#2563eb"/>
+
+    <path d="M 20 120 Q 50 85, 90 105 T 160 80 T 176 90" fill="none" stroke="#0284c7" stroke-width="2"/>
+    <circle cx="176" cy="90" r="3" fill="#0284c7"/>
+
+    <text x="16" y="48" font-family="monospace" font-size="9.5" fill="#059669">● ROLE: DATA &amp; AI ENGINEER</text>
+    <text x="16" y="63" font-family="monospace" font-size="9.5" fill="#0284c7">● SYSTEM: INDO ERA BI</text>
+    <text x="16" y="78" font-family="monospace" font-size="9.5" fill="#7e22ce">● MODEL: ACTIVE</text>
+  </g>
+
+  <!-- Left Main Content -->
+  <g transform="translate(45, 45)">
+    <text x="0" y="32" fill="url(#text-glow-light)" class="title-text-light">
+      PATIL AVINASH CHANDRABHAN
+    </text>
+
+    <g transform="translate(0, 58)">
+      <rect x="0" y="-18" width="415" height="28" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="12" y="1" class="sub-text-light">
+        AI/ML Engineer &amp; Data Analyst <tspan fill="#0284c7">@ Indo Era</tspan>
+      </text>
+    </g>
+
+    <text x="0" y="100" class="tagline-text-light">
+      ⚡ "Turning Enterprise Data into Business Intelligence &amp; AI Automation."
+    </text>
+
+    <!-- Skill Badges -->
+    <g transform="translate(0, 120)">
+      <rect x="0" y="0" width="68" height="24" rx="12" fill="#ffffff" stroke="#0284c7" stroke-width="1"/>
+      <text x="34" y="16" text-anchor="middle" class="badge-txt-light" fill="#0284c7">Python</text>
+
+      <rect x="76" y="0" width="52" height="24" rx="12" fill="#ffffff" stroke="#0284c7" stroke-width="1"/>
+      <text x="102" y="16" text-anchor="middle" class="badge-txt-light" fill="#0284c7">SQL</text>
+
+      <rect x="136" y="0" width="80" height="24" rx="12" fill="#ffffff" stroke="#d97706" stroke-width="1"/>
+      <text x="176" y="16" text-anchor="middle" class="badge-txt-light" fill="#d97706">Power BI</text>
+
+      <rect x="224" y="0" width="58" height="24" rx="12" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+      <text x="253" y="16" text-anchor="middle" class="badge-txt-light" fill="#059669">Excel</text>
+
+      <rect x="290" y="0" width="138" height="24" rx="12" fill="#ffffff" stroke="#7e22ce" stroke-width="1"/>
+      <text x="359" y="16" text-anchor="middle" class="badge-txt-light" fill="#7e22ce">Machine Learning</text>
+
+      <rect x="436" y="0" width="42" height="24" rx="12" fill="#ffffff" stroke="#db2777" stroke-width="1"/>
+      <text x="457" y="16" text-anchor="middle" class="badge-txt-light" fill="#db2777">AI</text>
+    </g>
+  </g>
+</svg>

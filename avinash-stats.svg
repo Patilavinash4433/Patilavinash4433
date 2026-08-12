@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 220" width="100%" height="auto">
+  <defs>
+    <linearGradient id="stats-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="stats-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="stat-glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .stat-title { font-family: 'Segoe UI', sans-serif; font-size: 15px; font-weight: bold; fill: #00f2fe; }
+    .stat-label { font-family: 'Segoe UI', sans-serif; font-size: 12.5px; fill: #94a3b8; }
+    .stat-val { font-family: 'Consolas', monospace; font-size: 13px; font-weight: bold; fill: #f8fafc; }
+  </style>
+
+  <rect width="440" height="220" rx="12" fill="url(#stats-bg)"/>
+  <rect width="438" height="218" x="1" y="1" rx="11" fill="none" stroke="url(#stats-border)" stroke-width="1.5"/>
+
+  <text x="25" y="32" class="stat-title" filter="url(#stat-glow)">📊 PATIL AVINASH // OVERVIEW</text>
+  <line x1="25" y1="42" x2="415" y2="42" stroke="#334155" stroke-width="1"/>
+
+  <g transform="translate(25, 65)">
+    <!-- Row 1 -->
+    <text x="0" y="0" class="stat-label">💼 Current Role:</text>
+    <text x="140" y="0" class="stat-val" fill="#38bdf8">AI/ML Engineer &amp; Data Analyst</text>
+
+    <!-- Row 2 -->
+    <text x="0" y="25" class="stat-label">🏢 Organization:</text>
+    <text x="140" y="25" class="stat-val" fill="#a855f7">Indo Era</text>
+
+    <!-- Row 3 -->
+    <text x="0" y="50" class="stat-label">⚡ Primary Skills:</text>
+    <text x="140" y="50" class="stat-val" fill="#00f2fe">Python, SQL, Power BI, ML</text>
+
+    <!-- Row 4 -->
+    <text x="0" y="75" class="stat-label">⚙️ Data Automation:</text>
+    <text x="140" y="75" class="stat-val" fill="#10b981">ETL, FastAPI, Pandas, MySQL</text>
+
+    <!-- Row 5 -->
+    <text x="0" y="100" class="stat-label">🎯 Career Focus:</text>
+    <text x="140" y="100" class="stat-val" fill="#f59e0b">Enterprise AI &amp; Data Science</text>
+  </g>
+</svg>
