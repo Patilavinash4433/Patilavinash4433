@@ -1,23 +1,23 @@
 <div align="center">
 
-<!-- ✨ Animated Dark/Light Banner ✨ -->
+<!-- ✨ HUGE Ghibli AI/ML Developer Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./avinash-banner.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./avinash-banner-light.svg?v=2">
-  <img src="./avinash-banner.svg?v=2" alt="Patil Avinash Chandrabhan — AI/ML Engineer & Data Analyst" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./avinash-banner.svg?v=10">
+  <source media="(prefers-color-scheme: light)" srcset="./avinash-banner-light.svg?v=10">
+  <img src="./avinash-banner.svg?v=10" alt="Patil Avinash Chandrabhan — AI/ML Engineer & Data Analyst" width="100%"/>
 </picture>
 
 </div>
 
 <br/>
 
-<!-- Table Layout with Swinging Lanyard Badge on Left & Projects Table on Right -->
+<!-- Table Layout: Left = Swinging Ghibli Lanyard ID Badge; Right = Featured Projects -->
 <table align="center" border="0">
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<!-- 🪪 Swinging Lanyard ID Card (React Bits / Megha style, pure SVG) -->
-<img src="./avinash-lanyard.svg?v=2" alt="Patil Avinash ID Badge" width="330"/>
+<!-- 🪪 Swinging Lanyard ID Card (Ghibli Avatar, pure SVG) -->
+<img src="./avinash-lanyard.svg?v=10" alt="Patil Avinash ID Badge" width="330"/>
 
 </td>
 <td width="62%" valign="top">
@@ -34,7 +34,7 @@
 
 <br/>
 
-> ⚡ *"Turning Complex Enterprise Data into Business Intelligence & AI Automation."*
+> 💙 *"Data is my art, AI is my superpower."*
 
 </td>
 </tr>
@@ -42,11 +42,11 @@
 
 <br/>
 
-## 👨‍💻 Professional Background
+## 👨‍💻 Professional Introduction
 
-I am **Patil Avinash Chandrabhan**, currently working professionally as a **Data Analyst & AI/ML Engineer at Indo Era**. My core responsibility involves extracting business value from raw enterprise datasets, constructing automated ETL data pipelines, and building business intelligence dashboards using **Python, SQL, Power BI, and Excel**.
+I am **Patil Avinash Chandrabhan**, currently working professionally as a **Data Analyst & AI/ML Engineer at Indo Era**. My day-to-day work centers around transforming raw complex datasets into actionable business intelligence, developing automated data pipelines, and creating analytical solutions using **Python, SQL, Power BI, and Excel**.
 
-I am continuously developing my technical capabilities toward **Machine Learning, Data Science, and Artificial Intelligence**—focusing on predictive modeling, exploratory data analysis, and building intelligent automation systems for real-world enterprise workflows.
+With a strong engineering mindset, I am continuously advancing my capabilities in **Machine Learning, Data Science, and Artificial Intelligence**—focusing on predictive modeling, exploratory data analysis, and building intelligent automation systems for real-world enterprise workflows.
 
 ---
 
@@ -117,8 +117,8 @@ I am continuously developing my technical capabilities toward **Machine Learning
 
 ### 📊 GitHub Stats & Overview Cards
 
-<img src="./avinash-stats.svg?v=2" alt="Patil Avinash Stats" height="185"/>
-<img src="./avinash-langs.svg?v=2" alt="Most Used Technologies" height="185"/>
+<img src="./avinash-stats.svg?v=10" alt="Patil Avinash Stats" height="185"/>
+<img src="./avinash-langs.svg?v=10" alt="Most Used Technologies" height="185"/>
 
 <br/><br/>
 
@@ -132,7 +132,7 @@ I am continuously developing my technical capabilities toward **Machine Learning
 <br/><br/>
 
 <!-- 🏆 Trophies (local animated SVG — always loads) -->
-<img src="./avinash-trophies.svg?v=2" alt="Trophies" width="95%"/>
+<img src="./avinash-trophies.svg?v=10" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
