@@ -1,10 +1,10 @@
 <div align="center">
 
-<!-- ✨ Unified Cinematic Hero Banner (Ghibli Character + Terminal + Code Editor + Tech Pills) ✨ -->
+<!-- ✨ Spacious Unified Hero Banner (Face-Matched Transparent Character + Terminal + Code Editor + Tech Pills) ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./avinash-hero-banner.png?v=50">
-  <source media="(prefers-color-scheme: light)" srcset="./avinash-hero-banner-light.png?v=50">
-  <img src="./avinash-hero-banner.png?v=50" alt="Patil Avinash Chandrabhan — AI/ML Engineer & Data Analyst" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./avinash-hero-banner.png?v=100">
+  <source media="(prefers-color-scheme: light)" srcset="./avinash-hero-banner-light.png?v=100">
+  <img src="./avinash-hero-banner.png?v=100" alt="Patil Avinash Chandrabhan — AI/ML Engineer & Data Analyst" width="100%"/>
 </picture>
 
 </div>
@@ -17,7 +17,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card (React Bits style, face-matched avatar, pure SVG) -->
-<img src="./avinash-lanyard.svg?v=50" alt="Patil Avinash ID Badge" width="330"/>
+<img src="./avinash-lanyard.svg?v=100" alt="Patil Avinash ID Badge" width="330"/>
 
 </td>
 <td width="62%" valign="top">
@@ -117,8 +117,8 @@ With a strong engineering mindset, I am continuously advancing my capabilities i
 
 ### 📊 GitHub Stats & Overview Cards
 
-<img src="./avinash-stats.svg?v=50" alt="Patil Avinash Stats" height="185"/>
-<img src="./avinash-langs.svg?v=50" alt="Most Used Technologies" height="185"/>
+<img src="./avinash-stats.svg?v=100" alt="Patil Avinash Stats" height="185"/>
+<img src="./avinash-langs.svg?v=100" alt="Most Used Technologies" height="185"/>
 
 <br/><br/>
 
@@ -141,7 +141,7 @@ With a strong engineering mindset, I am continuously advancing my capabilities i
 <br/>
 
 <!-- 🏆 Local Trophies Card -->
-<img src="./avinash-trophies.svg?v=50" alt="Trophies" width="95%"/>
+<img src="./avinash-trophies.svg?v=100" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
