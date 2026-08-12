@@ -1,150 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 500" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" width="100%" height="auto">
   <defs>
-    <linearGradient id="bg-left-dark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0c0714"/>
-      <stop offset="50%" stop-color="#150d2a"/>
-      <stop offset="100%" stop-color="#07040d"/>
+    <linearGradient id="bg-dark-banner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#070b14"/>
     </linearGradient>
 
-    <linearGradient id="title-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="50%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
     </linearGradient>
 
-    <linearGradient id="border-left" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.8"/>
+    <linearGradient id="border-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.9"/>
     </linearGradient>
 
-    <filter id="neon-cyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+    <filter id="text-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
 
   <style>
-    @keyframes blink-cursor { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-    @keyframes float-orb { 0%, 100% { transform: translateY(0px); opacity: 0.3; } 50% { transform: translateY(-10px); opacity: 0.8; } }
-    @keyframes neon-flicker {
-      0%, 100% { opacity: 1; filter: drop-shadow(0 0 6px #ec4899); }
-      50% { opacity: 1; } 52% { opacity: 0.3; } 54% { opacity: 1; }
-    }
+    @keyframes cursor-blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    
+    .term-prompt { font-family: 'Consolas', 'Fira Code', monospace; font-size: 16px; fill: #10b981; font-weight: bold; }
+    .main-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 34px; font-weight: 800; letter-spacing: 0.5px; fill: #ffffff; }
+    .role-badge { font-family: 'Consolas', monospace; font-size: 17px; fill: #00f2fe; font-weight: 700; }
+    .tagline-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-style: italic; fill: #f8fafc; font-weight: 500; }
+    .section-head { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 800; fill: #a855f7; letter-spacing: 1px; }
+    .pill-label { font-family: 'Consolas', monospace; font-size: 12.5px; font-weight: 700; fill: #ffffff; }
+    .about-item { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14.5px; fill: #e2e8f0; font-weight: 500; }
+    .stat-val { font-family: 'Consolas', monospace; font-size: 20px; font-weight: 800; fill: #00f2fe; }
+    .stat-lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #94a3b8; font-weight: 600; }
 
-    .term-txt { font-family: 'Consolas', 'Fira Code', monospace; font-size: 15px; fill: #10b981; font-weight: bold; }
-    .name-title { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 32px; font-weight: 800; letter-spacing: 1px; }
-    .role-txt { font-family: 'Consolas', monospace; font-size: 15.5px; fill: #38bdf8; font-weight: 600; }
-    .tagline-txt { font-family: 'Segoe UI', sans-serif; font-size: 14.5px; font-style: italic; fill: #f1f5f9; }
-    .sec-head { font-family: 'Segoe UI', sans-serif; font-size: 13.5px; font-weight: bold; fill: #a855f7; letter-spacing: 1px; }
-    .pill-txt { font-family: 'Consolas', monospace; font-size: 12px; font-weight: 600; fill: #ffffff; }
-    .about-line { font-family: 'Segoe UI', sans-serif; font-size: 13.5px; fill: #cbd5e1; }
-    .stat-val { font-family: 'Consolas', monospace; font-size: 18px; font-weight: bold; fill: #00f2fe; }
-    .stat-lbl { font-family: 'Segoe UI', sans-serif; font-size: 11px; fill: #94a3b8; }
-
-    .cursor { animation: blink-cursor 0.9s infinite; fill: #10b981; }
-    .neon-sign { animation: neon-flicker 4s infinite ease-in-out; }
-    .orb { animation: float-orb 6s infinite ease-in-out; }
+    .cursor { animation: cursor-blink 0.9s infinite; fill: #10b981; }
   </style>
 
-  <g>
-    <!-- Background Frame -->
-    <rect width="680" height="500" rx="16" fill="url(#bg-left-dark)"/>
-    <rect width="678" height="498" x="1" y="1" rx="15" fill="none" stroke="url(#border-left)" stroke-width="1.8"/>
+  <!-- Background Frame -->
+  <rect width="720" height="540" rx="16" fill="url(#bg-dark-banner)"/>
+  <rect width="718" height="538" x="1" y="1" rx="15" fill="none" stroke="url(#border-gradient)" stroke-width="2"/>
 
-    <circle cx="80" cy="80" r="70" fill="#00f2fe" opacity="0.05" class="orb"/>
-    <circle cx="580" cy="400" r="90" fill="#a855f7" opacity="0.05" class="orb"/>
+  <!-- Content Container -->
+  <g transform="translate(32, 42)">
+    <!-- Terminal Prompt -->
+    <text x="0" y="0" class="term-prompt">avinash@ai-ml-engineer:~$ cat README.md<tspan class="cursor"> _</tspan></text>
 
-    <!-- Terminal Line -->
-    <g transform="translate(30, 40)">
-      <text x="0" y="0" class="term-txt">user@dev:~$ cat README.md<tspan class="cursor"> _</tspan></text>
+    <!-- Main Title -->
+    <text x="0" y="48" class="main-name" filter="url(#text-glow)">
+      Patil Avinash Chandrabhan ⚡
+    </text>
+
+    <!-- Role Badge Box -->
+    <g transform="translate(0, 72)">
+      <rect width="490" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+      <text x="16" y="23" class="role-badge">&lt; AI/ML Engineer &amp; Data Analyst @ Indo Era /&gt;</text>
+    </g>
+
+    <!-- Tagline Box -->
+    <g transform="translate(0, 122)">
+      <rect width="560" height="38" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="16" y="24" class="tagline-text">⚡ "Turning Enterprise Data into Business Intelligence &amp; AI Automation."</text>
+    </g>
+
+    <!-- Tech Stack Pills -->
+    <g transform="translate(0, 185)">
+      <text x="0" y="0" class="section-head">⚡ TECH STACK &amp; TOOLS</text>
+
+      <!-- Row 1 -->
+      <g transform="translate(0, 12)">
+        <rect x="0" y="0" width="76" height="26" rx="13" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2"/>
+        <text x="38" y="17.5" text-anchor="middle" class="pill-label" fill="#38bdf8">Python</text>
+
+        <rect x="84" y="0" width="56" height="26" rx="13" fill="#1e293b" stroke="#00f2fe" stroke-width="1.2"/>
+        <text x="112" y="17.5" text-anchor="middle" class="pill-label" fill="#00f2fe">SQL</text>
+
+        <rect x="148" y="0" width="90" height="26" rx="13" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2"/>
+        <text x="193" y="17.5" text-anchor="middle" class="pill-label" fill="#f59e0b">Power BI</text>
+
+        <rect x="246" y="0" width="66" height="26" rx="13" fill="#1e293b" stroke="#10b981" stroke-width="1.2"/>
+        <text x="279" y="17.5" text-anchor="middle" class="pill-label" fill="#10b981">Excel</text>
+
+        <rect x="320" y="0" width="150" height="26" rx="13" fill="#1e293b" stroke="#a855f7" stroke-width="1.2"/>
+        <text x="395" y="17.5" text-anchor="middle" class="pill-label" fill="#a855f7">Machine Learning</text>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 46)">
+        <rect x="0" y="0" width="76" height="26" rx="13" fill="#1e293b" stroke="#ec4899" stroke-width="1.2"/>
+        <text x="38" y="17.5" text-anchor="middle" class="pill-label" fill="#ec4899">FastAPI</text>
+
+        <rect x="84" y="0" width="70" height="26" rx="13" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
+        <text x="119" y="17.5" text-anchor="middle" class="pill-label" fill="#3b82f6">MySQL</text>
+
+        <rect x="162" y="0" width="112" height="26" rx="13" fill="#1e293b" stroke="#00f2fe" stroke-width="1.2"/>
+        <text x="218" y="17.5" text-anchor="middle" class="pill-label" fill="#00f2fe">Scikit-Learn</text>
+
+        <rect x="282" y="0" width="76" height="26" rx="13" fill="#1e293b" stroke="#10b981" stroke-width="1.2"/>
+        <text x="320" y="17.5" text-anchor="middle" class="pill-label" fill="#10b981">Pandas</text>
+
+        <rect x="366" y="0" width="70" height="26" rx="13" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2"/>
+        <text x="401" y="17.5" text-anchor="middle" class="pill-label" fill="#f59e0b">NumPy</text>
+      </g>
+    </g>
+
+    <!-- About Me Lines -->
+    <g transform="translate(0, 285)">
+      <text x="0" y="0" class="section-head" fill="#ec4899">💗 ABOUT ME</text>
+      <text x="0" y="24" class="about-item">🔹 Data Analyst &amp; AI/ML Engineer working professionally at <tspan fill="#ffffff" font-weight="bold">Indo Era</tspan>.</text>
+      <text x="0" y="48" class="about-item">🔹 Building interactive Power BI dashboards, automated Python &amp; SQL ETL pipelines.</text>
+      <text x="0" y="72" class="about-item">🔹 Expanding capabilities in Machine Learning, Data Science &amp; Predictive Models.</text>
+    </g>
+
+    <!-- Stats Bar -->
+    <g transform="translate(0, 385)">
+      <rect width="500" height="56" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1.2"/>
       
-      <!-- Name Title -->
-      <text x="0" y="45" fill="url(#title-glow)" class="name-title" filter="url(#neon-cyan)">
-        Patil Avinash Chandrabhan ⚡
-      </text>
-
-      <!-- Role Badge -->
-      <g transform="translate(0, 68)">
-        <rect width="450" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-        <text x="14" y="20" class="role-txt">&lt; AI/ML Engineer &amp; Data Analyst @ Indo Era /&gt;</text>
+      <g transform="translate(25, 15)">
+        <text x="0" y="14" class="stat-val">25+</text>
+        <text x="0" y="28" class="stat-lbl">Public Repos</text>
       </g>
-
-      <!-- Tagline Box -->
-      <g transform="translate(0, 112)">
-        <rect width="520" height="36" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" opacity="0.9"/>
-        <text x="16" y="23" class="tagline-txt">⚡ "Turning Enterprise Data into Business Intelligence &amp; AI Automation."</text>
+      <g transform="translate(150, 15)">
+        <text x="0" y="14" class="stat-val" fill="#38bdf8">500+</text>
+        <text x="0" y="28" class="stat-lbl">Commits</text>
       </g>
-
-      <!-- Tech Stack Pills -->
-      <g transform="translate(0, 175)">
-        <text x="0" y="0" class="sec-head">⚡ TECH STACK &amp; TOOLS</text>
-
-        <!-- Row 1 -->
-        <g transform="translate(0, 10)">
-          <rect x="0" y="0" width="72" height="24" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
-          <text x="36" y="16" text-anchor="middle" class="pill-txt" fill="#38bdf8">Python</text>
-
-          <rect x="80" y="0" width="52" height="24" rx="12" fill="#0f172a" stroke="#00f2fe" stroke-width="1"/>
-          <text x="106" y="16" text-anchor="middle" class="pill-txt" fill="#00f2fe">SQL</text>
-
-          <rect x="140" y="0" width="84" height="24" rx="12" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
-          <text x="182" y="16" text-anchor="middle" class="pill-txt" fill="#f59e0b">Power BI</text>
-
-          <rect x="232" y="0" width="62" height="24" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
-          <text x="263" y="16" text-anchor="middle" class="pill-txt" fill="#10b981">Excel</text>
-
-          <rect x="302" y="0" width="145" height="24" rx="12" fill="#0f172a" stroke="#a855f7" stroke-width="1"/>
-          <text x="374.5" y="16" text-anchor="middle" class="pill-txt" fill="#a855f7">Machine Learning</text>
-        </g>
-
-        <!-- Row 2 -->
-        <g transform="translate(0, 42)">
-          <rect x="0" y="0" width="70" height="24" rx="12" fill="#0f172a" stroke="#ec4899" stroke-width="1"/>
-          <text x="35" y="16" text-anchor="middle" class="pill-txt" fill="#ec4899">FastAPI</text>
-
-          <rect x="78" y="0" width="65" height="24" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-width="1"/>
-          <text x="110.5" y="16" text-anchor="middle" class="pill-txt" fill="#3b82f6">MySQL</text>
-
-          <rect x="151" y="0" width="105" height="24" rx="12" fill="#0f172a" stroke="#00f2fe" stroke-width="1"/>
-          <text x="203.5" y="16" text-anchor="middle" class="pill-txt" fill="#00f2fe">Scikit-Learn</text>
-
-          <rect x="264" y="0" width="70" height="24" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
-          <text x="299" y="16" text-anchor="middle" class="pill-txt" fill="#10b981">Pandas</text>
-
-          <rect x="342" y="0" width="65" height="24" rx="12" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
-          <text x="374.5" y="16" text-anchor="middle" class="pill-txt" fill="#f59e0b">NumPy</text>
-        </g>
+      <g transform="translate(275, 15)">
+        <text x="0" y="14" class="stat-val" fill="#f59e0b">10+</text>
+        <text x="0" y="28" class="stat-lbl">Stars</text>
       </g>
-
-      <!-- About Me Lines -->
-      <g transform="translate(0, 270)">
-        <text x="0" y="0" class="sec-head" fill="#ec4899">💗 ABOUT ME</text>
-        <text x="0" y="20" class="about-line">🔹 Data Analyst &amp; AI/ML Engineer working professionally at <tspan fill="#ffffff" font-weight="bold">Indo Era</tspan>.</text>
-        <text x="0" y="40" class="about-line">🔹 Building interactive Power BI dashboards, automated Python &amp; SQL ETL pipelines.</text>
-        <text x="0" y="60" class="about-line">🔹 Expanding capabilities in Machine Learning, Data Science &amp; Predictive Models.</text>
-      </g>
-
-      <!-- Animated Stats Bar -->
-      <g transform="translate(0, 360)">
-        <rect width="460" height="52" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-        
-        <g transform="translate(20, 14)">
-          <text x="0" y="12" class="stat-val">25+</text>
-          <text x="0" y="26" class="stat-lbl">Public Repos</text>
-        </g>
-        <g transform="translate(135, 14)">
-          <text x="0" y="12" class="stat-val" fill="#38bdf8">500+</text>
-          <text x="0" y="26" class="stat-lbl">Commits</text>
-        </g>
-        <g transform="translate(250, 14)">
-          <text x="0" y="12" class="stat-val" fill="#f59e0b">10+</text>
-          <text x="0" y="26" class="stat-lbl">Stars</text>
-        </g>
-        <g transform="translate(360, 14)">
-          <text x="0" y="12" class="stat-val" fill="#a855f7">10+</text>
-          <text x="0" y="26" class="stat-lbl">Followers</text>
-        </g>
+      <g transform="translate(385, 15)">
+        <text x="0" y="14" class="stat-val" fill="#a855f7">10+</text>
+        <text x="0" y="28" class="stat-lbl">Followers</text>
       </g>
     </g>
   </g>
