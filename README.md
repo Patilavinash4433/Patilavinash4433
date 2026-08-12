@@ -1,24 +1,11 @@
 <div align="center">
 
-<!-- ✨ Full Size Ghibli Hero Banner with Face-Matched Suit Character Art ✨ -->
-<table border="0" width="100%">
-<tr>
-<td width="58%" valign="middle" align="left">
-
+<!-- ✨ Unified Cinematic Hero Banner (Ghibli Character + Terminal + Code Editor + Tech Pills) ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-left-dark.svg?v=30">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-left-light.svg?v=30">
-  <img src="./assets/banner-left-dark.svg?v=30" alt="Patil Avinash Chandrabhan" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./avinash-hero-banner.png?v=50">
+  <source media="(prefers-color-scheme: light)" srcset="./avinash-hero-banner-light.png?v=50">
+  <img src="./avinash-hero-banner.png?v=50" alt="Patil Avinash Chandrabhan — AI/ML Engineer & Data Analyst" width="100%"/>
 </picture>
-
-</td>
-<td width="42%" valign="middle" align="center">
-
-<img src="./assets/dev-character.jpg?v=30" alt="Patil Avinash AI/ML Character" width="100%" style="border-radius: 16px; border: 2px solid #00f2fe;"/>
-
-</td>
-</tr>
-</table>
 
 </div>
 
@@ -30,7 +17,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card (React Bits style, face-matched avatar, pure SVG) -->
-<img src="./avinash-lanyard.svg?v=30" alt="Patil Avinash ID Badge" width="330"/>
+<img src="./avinash-lanyard.svg?v=50" alt="Patil Avinash ID Badge" width="330"/>
 
 </td>
 <td width="62%" valign="top">
@@ -130,8 +117,8 @@ With a strong engineering mindset, I am continuously advancing my capabilities i
 
 ### 📊 GitHub Stats & Overview Cards
 
-<img src="./avinash-stats.svg?v=30" alt="Patil Avinash Stats" height="185"/>
-<img src="./avinash-langs.svg?v=30" alt="Most Used Technologies" height="185"/>
+<img src="./avinash-stats.svg?v=50" alt="Patil Avinash Stats" height="185"/>
+<img src="./avinash-langs.svg?v=50" alt="Most Used Technologies" height="185"/>
 
 <br/><br/>
 
@@ -154,7 +141,7 @@ With a strong engineering mindset, I am continuously advancing my capabilities i
 <br/>
 
 <!-- 🏆 Local Trophies Card -->
-<img src="./avinash-trophies.svg?v=30" alt="Trophies" width="95%"/>
+<img src="./avinash-trophies.svg?v=50" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
