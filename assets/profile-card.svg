@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 130" width="100%" height="auto">
+  <defs>
+    <linearGradient id="hud-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#0e1726"/>
+    </linearGradient>
+    <linearGradient id="hud-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes pulse-green { 0%, 100% { fill: #10b981; filter: drop-shadow(0 0 4px #10b981); } 50% { fill: #059669; filter: none; } }
+    .hud-title { font-family: 'Consolas', 'Fira Code', monospace; font-size: 13px; font-weight: bold; fill: #00f2fe; }
+    .hud-val { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 14px; font-weight: 600; fill: #f1f5f9; }
+    .hud-sub { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 12.5px; fill: #94a3b8; }
+    .cursor { animation: blink 1s infinite; fill: #00f2fe; }
+    .status-dot { animation: pulse-green 2s infinite ease-in-out; }
+  </style>
+
+  <rect width="950" height="130" rx="12" fill="url(#hud-bg)"/>
+  <rect width="948" height="128" x="1" y="1" rx="11" fill="none" stroke="url(#hud-border)" stroke-width="1.5"/>
+
+  <!-- Left Column: Current Role & Status -->
+  <g transform="translate(30, 25)">
+    <circle cx="10" cy="12" r="5" class="status-dot"/>
+    <text x="25" y="16" class="hud-title">SYSTEM STATUS // ONLINE</text>
+    <text x="25" y="42" class="hud-val">Data Analyst &amp; AI/ML Engineer @ Indo Era</text>
+    <text x="25" y="64" class="hud-sub">Specializing in Data Analytics, Python Automation &amp; Business Intelligence</text>
+  </g>
+
+  <!-- Divider line -->
+  <line x1="560" y1="20" x2="560" y2="110" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- Right Column: Quick Terminal / Focus -->
+  <g transform="translate(590, 25)">
+    <text x="0" y="16" class="hud-title">CURRENT_FOCUS&gt; <tspan fill="#e2e8f0">AI/ML &amp; Data Pipeline Dev</tspan><tspan class="cursor">_</tspan></text>
+    <text x="0" y="42" class="hud-sub">📍 Location: <tspan fill="#e2e8f0">Surat, Gujarat, India</tspan></text>
+    <text x="0" y="64" class="hud-sub">🎯 Primary Goal: <tspan fill="#38bdf8">Building Intelligent Business Systems</tspan></text>
+  </g>
+</svg>
